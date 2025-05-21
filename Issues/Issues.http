@@ -1,0 +1,9 @@
+@Issues_HostAddress = http://localhost:5038
+
+GET {{Issues_HostAddress}}/issues/
+Accept: application/json
+
+###
+
+GET {{Issues_HostAddress}}/issues/problem-details-serialization-issue
+Accept: application/json
