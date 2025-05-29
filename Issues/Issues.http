@@ -7,3 +7,7 @@ Accept: application/json
 
 GET {{Issues_HostAddress}}/issues/problem-details-serialization-issue
 Accept: application/json
+
+### Get OpenApi schema
+# @name openapi
+GET {{Issues_HostAddress}}/openapi/v1.json

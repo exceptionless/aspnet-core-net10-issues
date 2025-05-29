@@ -47,7 +47,7 @@ public class IssuesController : ControllerBase
     /// <response code="426">Upgrade, these are missing in open api.</response>
     /// </summary>
     [HttpGet("open-api-model-issue")]
-    public ActionResult<CountResult> OpenApiModelIssue()
+    public ActionResult<SampleModel> OpenApiModelIssue()
     {
         return Ok(new SampleModel { ShouldHaveMinLength = "but doesn't" });
     }
